@@ -45,7 +45,6 @@ def activation_function(x, activation_name):
 
 
 if __name__ == '__main__':
-    # Example usage
     x_input = input("Enter value of x: ")
     activation_function_name = input("Enter activation function name (sigmoid, relu, elu): ")
 

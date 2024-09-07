@@ -21,5 +21,4 @@ def evaluate_classification_model(tp, fp, fn):
     print(f'Recall: {recall:.3f}')
     print(f'F1-Score: {f1_score:.3f}')
 
-
 evaluate_classification_model(1, 2, 3)

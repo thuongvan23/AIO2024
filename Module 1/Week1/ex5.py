@@ -17,3 +17,5 @@ p = 1
 for y, y_hat in zip(y_values, y_hat_values):
     result = md_nre(y, y_hat, n, p)
     print(f'y = {y}, y_hat = {y_hat}, MD_nRE (n={n}, p={p}) = {result:.3f}')
+
+
